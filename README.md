@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mandirabasak2021/Fine_tune-small-project/blob/main/gamedialogue.ipynb)
+
 # Game Dialogue Generator using DistilGPT2
 
 This project fine-tunes a lightweight GPT2-based model (`DistilGPT2`) to generate dynamic, game-relevant text such as NPC dialogue, quest descriptions, or game item lore, using the [Viggo Dataset](https://nlds.soe.ucsc.edu/viggo).
@@ -56,3 +58,7 @@ pip install -r requirements.txt
 
 # Start FastAPI or Flask server
 python app.py
+
+###  Sample Output
+**Prompt:** Tell me about Far Cry 3  
+**Generated:** Far Cry 3 is an action-adventure game set on a tropical island. It features first-person gameplay and was released in 2012.
